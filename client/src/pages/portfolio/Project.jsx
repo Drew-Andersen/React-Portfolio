@@ -2,7 +2,7 @@ import fitnessBuddy from './images/Fitness-Buddy.png';
 import tributePage from './images/Tribute-Page.png';
 import taskBoard from './images/Task-Board.png';
 
-const projects = [
+export const projects = [
     {
       projectTitle: "Fitness Buddy",
       description: "An application that makes it easy to track your workouts.",
@@ -26,31 +26,29 @@ const projects = [
         imageAtl: "Image of the Task Board",
         liveLink: "https://drew-andersen.github.io/Task-Board/",
         gitHub: "https://github.com/Drew-Andersen/Task-Board"
-    },
-    {
-        projectTitle: "",
-        description: "",
-        imageLink: {},
-        imageAtl: "",
-        liveLink: "",
-        gitHub: ""
-    },
-    {
-        projectTitle: "",
-        description: "",
-        imageLink: {},
-        imageAtl: "",
-        liveLink: "",
-        gitHub: ""
-    },
-    {
-        projectTitle: "",
-        description: "",
-        imageLink: {},
-        imageAtl: "",
-        liveLink: "",
-        gitHub: ""
     }
+    // {
+    //     projectTitle: "",
+    //     description: "",
+    //     imageLink: {},
+    //     imageAtl: "",
+    //     liveLink: "",
+    //     gitHub: ""
+    // },
+    // {
+    //     projectTitle: "",
+    //     description: "",
+    //     imageLink: {},
+    //     imageAtl: "",
+    //     liveLink: "",
+    //     gitHub: ""
+    // },
+    // {
+    //     projectTitle: "",
+    //     description: "",
+    //     imageLink: {},
+    //     imageAtl: "",
+    //     liveLink: "",
+    //     gitHub: ""
+    // }
 ]
-
-export default projects;
