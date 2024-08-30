@@ -1,8 +1,9 @@
-import { useFormData } from 'herotofu-react';
+// import { useFormData } from 'herotofu-react';
 import './contact.css';
 
 export default function Contact() {
     // const { formState, getFormSubmitHandler } = useFormData('https://herotofu.com/start');
+
 
     return (
         <>
@@ -13,13 +14,13 @@ export default function Contact() {
             <div className="d-flex justify-content-center">
                 <form action="https://public.herotofu.com/v1/28d34d30-66f2-11ef-b56a-996140013c43" method="post" accept-charset="UTF-8">
                     <div className="form-group m-1">
-                        <input type="text" className="name-input form-control" id="name" placeholder="Name" name="Name" required />
+                        <input type="text" className="name-input form-control" id="name" placeholder="Name" name="name" required />
                     </div>
                     <div className="form-group m-1">
                         <input type="email" className="email-input form-control" id="email" placeholder="Email" name="email" required />
                     </div>
                     <div className="form-group m-1">
-                        <textarea type="email" className="message-input form-control" id="email" placeholder="Your message" name="Email" required />
+                        <textarea type="message" className="message-input form-control" id="message" placeholder="Enter your message here!" name="message" required />
                     </div>
                     <div className="text-center">
                         <button type="submit" className="btn btn-success w-25 mt-2" value="Submit">Submit</button>

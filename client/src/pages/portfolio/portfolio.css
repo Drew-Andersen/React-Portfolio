@@ -1,0 +1,42 @@
+.project-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 350px;
+    gap: 20px;
+}
+
+.project-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.projects {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.projects:hover {
+    transform: scale(1.05);
+}
+
+.project-buffer {
+    margin: 10px;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    background-image: var(--background-img);
+    border-radius: 20px 20px 0 0;
+}
+
+.project-img {
+    position: relative;
+    min-height: 100px;
+    max-height: 250px;
+    border-radius: 0 0 20px 20px;
+}

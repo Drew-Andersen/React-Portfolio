@@ -1,10 +1,13 @@
 import img from './images/Profile-img.jpeg';
+import logo from './images/Logo.png';
 import './about.css';
 
 export default function About() {
     return (
         <>
-            <h1 className='text-center my-5'>Drew Andersen</h1>
+            <div className='text-center logo'>
+                <img src={logo} alt="Logo for portfolio" />
+            </div>
             <div className="d-flex container mx-3">
                 <div className="about-header col-3 px-2 text-center">
                     About Me
