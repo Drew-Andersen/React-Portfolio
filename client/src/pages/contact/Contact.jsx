@@ -2,11 +2,11 @@ import { useFormData } from 'herotofu-react';
 import './contact.css';
 
 export default function Contact() {
-    const { formState, getFormSubmitHandler } = useFormData('https://herotofu.com/start');
+    // const { formState, getFormSubmitHandler } = useFormData('https://herotofu.com/start');
 
     return (
         <>
-            {!!formState.status && <div hidden>Current form status is: {formState.status}</div>}
+            {/* {!!formState.status && <div hidden>Current form status is: {formState.status}</div>} */}
             <div className="d-flex justify-content-center">
                 <h1 className="d-flex justify-content-center">Contact</h1>
             </div>
