@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Import css
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // Import pages the router will use to conditionally show the appropriate views
 import App from './App';
-import About from './pages/About';
+import About from './pages/about/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
-import Home from './pages/Home';
+import Portfolio from './pages/portfolio/Portfolio';
 
 // Defining the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -22,11 +21,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />
+        element: <About />
       },
       {
-        path: '/about',
-        element: <About />
+        path: '/portfolio',
+        element: <Portfolio />
       },
       {
         path: '/contact',
@@ -37,8 +36,6 @@ const router = createBrowserRouter([
 ])
 
 // Render the RouterProvider component
-const root = document.getElementById('root');
-
-ReactDOM.createRoot(root).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );

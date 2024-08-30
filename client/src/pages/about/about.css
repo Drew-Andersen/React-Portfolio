@@ -1,0 +1,18 @@
+:root {
+    --red: #e60000;
+    --shadow-red: #660000;
+    --border-red: #4d0000;
+    --background-img: linear-gradient( #a6a6a6, #f2f2f2f2);
+}
+
+.profile-img {
+    width: 225px;
+    border: 3px solid var(--border-red);
+    float: left;
+    margin-right: 10px;
+}
+
+.about-header {
+    font-size: 1.6rem;
+    border-right: 5px solid var(--border-red);
+}

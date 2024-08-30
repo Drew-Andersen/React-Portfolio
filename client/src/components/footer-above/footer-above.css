@@ -1,0 +1,46 @@
+.contact-links a{
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.contact-links a:hover {
+    opacity: 0.7;
+    transform: scale(1.4);
+}
+
+.contact-details {
+    margin: 10px;
+}
+
+.fa {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-github {
+    background: #201C1C;
+    color: white;
+}
+
+.fa-envelope {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-linkedin {
+    background-color: #0077B5;
+    color: white;
+}
+
+.fa-file {
+    background-color: #009933;
+    color: white;
+}

@@ -1,0 +1,30 @@
+:root {
+    --red: #e60000;
+    --shadow-red: #660000;
+    --border-red: #4d0000;
+    --background-img: linear-gradient( #a6a6a6, #f2f2f2f2);
+}
+
+nav {
+    box-shadow: 0 1px 8px var(--shadow-red);
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-bottom: 2px solid var(--border-red);
+}
+
+li:hover {
+    background-color: #da2626;
+    box-shadow: 0 1px 8px var(--shadow-red);
+    color: white;
+    border-radius: 5px;
+}
+
+.bg-navbar {
+    background-color: #f2f2f2;
+}
