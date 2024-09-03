@@ -1,6 +1,6 @@
 import fitnessBuddy from '/public/images/Fitness-Buddy.png';
 import tributePage from '/public/images/Tribute-Page.png';
-import taskBoard from '/public/images/Task-board.png';
+import taskBoard from '/public/images/Task-Board.png';
 import restaurantApp from '/public/images/City-Restaurant-Finder.png';
 import fitnessBlog from '/public/images/Fitness-Blog.png';
 import comingSoon from '/public/images/Coming-Soon.png';
