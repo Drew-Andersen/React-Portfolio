@@ -1,4 +1,4 @@
-import fitnessBuddy from 'public/images/Fitness-Buddy.png';
+import fitnessBuddy from '../../../public/images/Fitness-Buddy.png';
 import tributePage from './images/Tribute-Page.png';
 import taskBoard from './images/Task-Board.png';
 
