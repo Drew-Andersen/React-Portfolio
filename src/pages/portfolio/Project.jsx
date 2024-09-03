@@ -1,6 +1,6 @@
 import fitnessBuddy from '../../../public/images/Fitness-Buddy.png';
-import tributePage from './images/Tribute-Page.png';
-import taskBoard from './images/Task-Board.png';
+import tributePage from '../../../public/images/Tribute-Page.png';
+import taskBoard from '../../../public/images/Task-Board.png';
 
 export const projects = [
     {
