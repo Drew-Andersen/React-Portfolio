@@ -15,16 +15,42 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.about-div {
+    display: flex;
+}
+
 .profile-img {
     width: 225px;
     border: 3px solid var(--border-red);
-    float: left;
     margin-right: 10px;
 }
 
 .about-header {
     font-size: 1.6rem;
-    border-right: 5px solid var(--border-red);
+    text-decoration: underline 3px var(--border-red);
 }
 
+.technologies-header {
+    font-size: 1.6rem;
+    text-decoration: underline 3px var(--border-red);
+}
 
+/* *************** Languages *************** */
+.icon {
+    height: 175px;
+    width: 175px;
+    max-width: 100%;
+    border-radius: 50%;
+    font-size: 55px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 20px auto 50px;
+}
+
+/* **************** @Media **************** */
+@media screen and (max-width: 1000px) {
+    .about-div {
+        display: block;
+    }
+}

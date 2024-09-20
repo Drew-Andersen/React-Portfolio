@@ -9,7 +9,7 @@ export default function Portfolio() {
                 <div className="project-section w-100">
                     {projects.map((project, index) => {
                         return (
-                            <div id={index} className="projects" key={index}>
+                            <div id="projects" className={index} key={index}>
                                 <a href={project.liveLink} target="_blank">
                                     <div className="project-buffer">
                                         <div className="project-title">

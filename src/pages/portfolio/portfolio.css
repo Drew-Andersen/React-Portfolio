@@ -3,6 +3,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 350px;
+    grid-template-areas: 
+        "0 1 2" 
+        "3 4 5";
     gap: 20px;
 }
 
@@ -11,14 +14,14 @@
     color: black;
 }
 
-.projects {
+#projects {
     border: 2px solid black;
     border-radius: 20px;
     margin: 5px;
     transition: all .2s ease-in-out;
 }
 
-.projects:hover {
+#projects:hover {
     transform: scale(1.05);
 }
 
@@ -39,4 +42,28 @@
     min-height: 100px;
     max-height: 250px;
     border-radius: 0 0 20px 20px;
+}
+
+@media screen and (max-width:1800px) {
+    .project-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 350px 350px 350px;
+        grid-template-areas:
+            "0 1" 
+            "2 3" 
+            "4 5";
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .project-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px 350px 350px 350px 350px;
+        grid-template-areas:
+            "0" "1" "2" "3" "4" "5";
+    }
 }
