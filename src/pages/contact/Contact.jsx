@@ -73,7 +73,7 @@ export default function Contact() {
                 <h1 className="d-flex justify-content-center">Contact</h1>
             </div>
             <div className="d-flex justify-content-center">
-                <form action="https://public.herotofu.com/v1/28d34d30-66f2-11ef-b56a-996140013c43" method="post" accept-charset="UTF-8">
+                <form action="https://public.herotofu.com/v1/28d34d30-66f2-11ef-b56a-996140013c43" method="post" acceptCharset="UTF-8">
                     <div className="form-group m-1">
                         <input type="text" className="name-input form-control" id="name" placeholder="Name" name="name" required />
                     </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                     <div className="text-center">
                         <button type="submit" className="btn btn-success w-25 mt-2" value="Submit">Submit</button>
                         <div aria-hidden="true">
-                            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden />
+                            <input type="text" name="_gotcha" tabIndex="-1" autoComplete="off" hidden />
                         </div>
                     </div>
                 </form>

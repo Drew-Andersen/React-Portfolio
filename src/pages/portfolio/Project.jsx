@@ -1,9 +1,9 @@
-import fitnessBuddy from '/public/images/Fitness-Buddy.png';
-import tributePage from '/public/images/Tribute-Page.png';
-import taskBoard from '/public/images/Task-Board.png';
-import restaurantApp from '/public/images/City-Restaurant-Finder.png';
-import fitnessBlog from '/public/images/Fitness-Blog.png';
-import vintageVault from '/public/images/Vintage-Vault.png';
+import fitnessBuddy from '/images/Fitness-Buddy.png';
+import tributePage from '/images/Tribute-Page.png';
+import taskBoard from '/images/Task-Board.png';
+import restaurantApp from '/images/City-Restaurant-Finder.png';
+import fitnessBlog from '/images/Fitness-Blog.png';
+import vintageVault from '/images/Vintage-Vault.png';
 
 export const projects = [
     {
