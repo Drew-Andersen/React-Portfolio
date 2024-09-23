@@ -11,7 +11,7 @@ function App() {
         <Header/>
           <Outlet/>
         <FooterAbove />
-        <Footer className='footer' />
+        <Footer className='footer mt-5' />
       </div>
     </>
   );
