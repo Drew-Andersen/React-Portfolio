@@ -43,7 +43,7 @@ export default function About() {
                                         <i className="fa-brands fa-react"></i>
                                     </div>
                                 </div>
-                                <h5>REACT</h5>
+                                <h5 className='mb-3'>REACT</h5>
                             </div>
                             <div className="col-md-4 node-div">
                                 <div id='progress'  className='icon d-flex justify-content-center align-items-center border p-5'>
@@ -51,7 +51,7 @@ export default function About() {
                                         <i className="fa-brands fa-node"></i>
                                     </div>
                                 </div>
-                                <h5>Node.js</h5>
+                                <h5 className='mb-3'>Node.js</h5>
                             </div>
                             <div className="col-md-4 JS-div">
                                 <div id='progress'  className='icon d-flex justify-content-center align-items-center border p-5'>
@@ -59,7 +59,7 @@ export default function About() {
                                         <i className="fa-brands fa-js"></i>
                                     </div>
                                 </div>
-                                <h5>JavaScript</h5>
+                                <h5 className='mb-3'>JavaScript</h5>
                             </div>
                             <div className="col-md-4 html-div">
                                 <div id='progress'  className='icon d-flex justify-content-center align-items-center border p-5'>
@@ -67,7 +67,7 @@ export default function About() {
                                         <i className="fa-brands fa-html5"></i>
                                     </div>
                                 </div>
-                                <h5>HTML</h5>
+                                <h5 className='mb-3'>HTML</h5>
                             </div>
                             <div className="col-md-4 css-div">
                                 <div id='progress'  className='icon d-flex justify-content-center align-items-center border rounded-circle p-5'>
@@ -75,7 +75,7 @@ export default function About() {
                                         <i className="fa-brands fa-css3-alt"></i>
                                     </div>
                                 </div>
-                                <h5>CSS</h5>
+                                <h5 className='mb-3'>CSS</h5>
                             </div>
                             <div className="col-md-4 sql-div">
                                 <div id='progress'  className='icon d-flex justify-content-center align-items-center border rounded-circle p-5'>
@@ -83,7 +83,7 @@ export default function About() {
                                         <i className="fa-solid fa-database"></i>
                                     </div>
                                 </div>
-                                <h5>NoSQL + PostgreSQL</h5>
+                                <h5 className='mb-3'>NoSQL + PostgreSQL</h5>
                             </div>
                         </div>
                     </div>

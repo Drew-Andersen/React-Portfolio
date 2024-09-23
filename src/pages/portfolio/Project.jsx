@@ -3,9 +3,17 @@ import tributePage from '/public/images/Tribute-Page.png';
 import taskBoard from '/public/images/Task-Board.png';
 import restaurantApp from '/public/images/City-Restaurant-Finder.png';
 import fitnessBlog from '/public/images/Fitness-Blog.png';
-import comingSoon from '/public/images/Coming-Soon.png';
+import vintageVault from '/public/images/Vintage-Vault.png';
 
 export const projects = [
+    {
+        projectTitle: "Vintage Vault",
+        description: "An application where you can find and buy anything based on what era it came out.",
+        imageLink: vintageVault,
+        imageAtl: "Image of Vintage Vault",
+        liveLink: "https://vintage-vault.onrender.com/",
+        gitHub: "https://github.com/Drew-Andersen/Vintage-Vault"
+    },
     {
       projectTitle: "Fitness Buddy",
       description: "An application that makes it easy to track your workouts.",
@@ -22,6 +30,7 @@ export const projects = [
         liveLink: "https://djdevjams.github.io/city_eventtracker/",
         gitHub: "https://github.com/Drew-Andersen/City-Restaurant-Finder"
     },
+    
     {
         projectTitle: "Task Board",
         description: "A task board where you can move around tasks from 'To-Do', In Progress' and 'Done'.",
@@ -45,13 +54,5 @@ export const projects = [
         imageAtl: "Image of Fitness Blog App",
         liveLink: "https://drew-andersen.github.io/Fitness-Blog/",
         gitHub: "https://github.com/Drew-Andersen/Fitness-Blog"
-    },
-    {
-        projectTitle: "Coming Soon",
-        description: "",
-        imageLink: comingSoon,
-        imageAtl: "Image of Coming Soon",
-        liveLink: "",
-        gitHub: ""
     }
 ]
