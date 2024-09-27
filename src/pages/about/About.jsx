@@ -1,8 +1,14 @@
+import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from './AnimatedProgressBarProvider';
+import 'react-circular-progressbar/dist/styles.css';
 import img from './images/Profile-img.jpeg';
 import logo from './images/Logo.png';
 import './about.css';
 
 export default function About() {
+
+
     return (
         <>
             <div className='text-center logo'>
@@ -38,50 +44,164 @@ export default function About() {
                     <div className='row progress-bar'>
                         <div className="col-md-12 d-flex flex-wrap">
                             <div className="col-md-4 react-div">
-                                <div id='progress' className='icon d-flex justify-content-center align-items-center border p-5' data-percent='84'>
-                                    <div className="inner">
-                                        <i className="fa-brands fa-react"></i>
-                                    </div>
+                                <div className='icon'>
+                                    <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={85}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                        <i className="fa-brands fa-react"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
                                 </div>
-                                <h5 className='mb-3'>REACT</h5>
+                                <h5 className='mb-3 mt-3'>REACT</h5>
                             </div>
                             <div className="col-md-4 node-div">
-                                <div id='progress'  className='icon d-flex justify-content-center align-items-center border p-5'>
-                                    <div className="inner">
-                                        <i className="fa-brands fa-node"></i>
-                                    </div>
+                                <div className="icon">
+                                    <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={70}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                        <i className="fa-brands fa-node"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
                                 </div>
-                                <h5 className='mb-3'>Node.js</h5>
+                                <h5 className='mb-3 mt-3'>Node.js</h5>
                             </div>
                             <div className="col-md-4 JS-div">
-                                <div id='progress'  className='icon d-flex justify-content-center align-items-center border p-5'>
-                                    <div className="inner">
-                                        <i className="fa-brands fa-js"></i>
-                                    </div>
+                                <div className='icon'>
+                                    <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={90}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                        <i className="fa-brands fa-js"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3'>JavaScript</h5>
                             </div>
                             <div className="col-md-4 html-div">
-                                <div id='progress'  className='icon d-flex justify-content-center align-items-center border p-5'>
-                                    <div className="inner">
-                                        <i className="fa-brands fa-html5"></i>
-                                    </div>
+                                <div className='icon'>
+                                    <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={94}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                        <i className="fa-brands fa-html5"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3'>HTML</h5>
                             </div>
                             <div className="col-md-4 css-div">
-                                <div id='progress'  className='icon d-flex justify-content-center align-items-center border rounded-circle p-5'>
-                                    <div className="inner">
-                                        <i className="fa-brands fa-css3-alt"></i>
-                                    </div>
+                                <div className='icon'>
+                                <AnimatedProgressProvider
+                                    id='progress'
+                                    className='d-flex justify-content-center align-items-center border p-5'
+                                    valueStart={0}
+                                    valueEnd={75}
+                                    duration={1.8}
+                                    easingFunction={easeQuadInOut}
+                                >
+                                    {(value) => {
+                                        return (
+                                            <CircularProgressbarWithChildren
+                                                className='CircularProgressbarWithChildren'
+                                                value={value}
+                                                styles={buildStyles({ pathTransition: "none" })}
+                                            >
+                                                <div className="inner">
+                                                    <i className="fa-brands fa-css3-alt"></i>
+                                                </div>
+                                            </CircularProgressbarWithChildren>
+                                        );
+                                    }}
+                                </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3'>CSS</h5>
                             </div>
                             <div className="col-md-4 sql-div">
-                                <div id='progress'  className='icon d-flex justify-content-center align-items-center border rounded-circle p-5'>
-                                    <div className="inner">
-                                        <i className="fa-solid fa-database"></i>
-                                    </div>
+                                <div className='icon'>
+                                <AnimatedProgressProvider
+                                    id='progress'
+                                    className='d-flex justify-content-center align-items-center border p-5'
+                                    valueStart={0}
+                                    valueEnd={60}
+                                    duration={1.8}
+                                    easingFunction={easeQuadInOut}
+                                >
+                                    {(value) => {
+                                        return (
+                                            <CircularProgressbarWithChildren
+                                                className='CircularProgressbarWithChildren'
+                                                value={value}
+                                                styles={buildStyles({ pathTransition: "none" })}
+                                            >
+                                                <div className="inner">
+                                                    <i className="fa-solid fa-database"></i>
+                                                </div>
+                                            </CircularProgressbarWithChildren>
+                                        );
+                                    }}
+                                </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3'>NoSQL + PostgreSQL</h5>
                             </div>

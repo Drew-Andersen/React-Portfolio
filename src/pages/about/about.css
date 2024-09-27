@@ -46,6 +46,17 @@
     margin: 20px auto;
 }
 
+.CircularProgressbarWithChildren {
+    width: 175px;
+    height: 175px;
+}
+
+.CircularProgressbarWithChildren .CircularProgressbar-path {
+    stroke: var(--shadow-red);
+}
+
+
+
 /* **************** @Media **************** */
 @media screen and (max-width: 1000px) {
     .about-div {
