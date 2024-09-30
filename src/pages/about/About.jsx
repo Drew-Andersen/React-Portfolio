@@ -206,7 +206,9 @@ export default function About() {
                                     }}
                                 </AnimatedProgressProvider>
                                 </div>
-                                <h5 className='mb-3'>NoSQL + PostgreSQL</h5>
+                                <h5 className='mb-3'>
+                                    NoSQL + <br />
+                                    PostgreSQL</h5>
                             </div>
                         </div>
                     </div>

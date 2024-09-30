@@ -2,7 +2,7 @@
     --red: #e60000;
     --shadow-red: #660000;
     --border-red: #4d0000;
-    --background-img: linear-gradient( #a6a6a6, #f2f2f2f2);
+    --background-img: linear-gradient(#a6a6a6, #f2f2f2f2);
 }
 
 .logo {
@@ -10,7 +10,7 @@
 }
 
 .logo img {
-    width: 20%;
+    width: 280px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -61,5 +61,11 @@
 @media screen and (max-width: 1000px) {
     .about-div {
         display: block;
+    }
+}
+
+@media screen and (max-width: 750.9px) {
+    .logo img {
+        width: 200px;
     }
 }
