@@ -43,9 +43,9 @@ export default function About() {
                 <div className="technologies-header text-center">
                     <h2>Technologies</h2>
                 </div>
-                <div className="container mb-5">
+                <div className="container technologies-container mb-5">
                     <div className='row progress-bar'>
-                        <div className="col-md-12 d-flex flex-wrap">
+                        <div className="col-md-12 d-flex flex-wrap justify-content-between">
                             <div className="col-md-4 react-div">
                                 <div className='icon'>
                                     <AnimatedProgressProvider

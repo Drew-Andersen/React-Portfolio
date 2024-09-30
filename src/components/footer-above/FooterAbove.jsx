@@ -4,7 +4,7 @@ import './footer-above.css';
 export default function FooterAbove() {
     return (
         <>
-            <div className="contact-links d-flex justify-content-around text-center my-5">
+            <div className="contact-links d-flex flex-wrap justify-content-around text-center my-5">
                 <a href="https://github.com/Drew-Andersen" id="profile-link" className="button contact-details text-black mx-5" target="_blank">
                     <i className="fa fa-brands fa-github"></i>
                     GitHub
