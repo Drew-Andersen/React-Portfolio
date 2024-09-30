@@ -23,16 +23,19 @@ export default function About() {
                         <img src={img} className="profile-img rounded-circle mx-5" alt="profile image" />
                     </div>
                     <p className="m-4">
-                        Hello! I am a full stack developer with a passion for creating user friendly applications. I graduated from Georgia Southern University with a BS in Biology and a minor in Chemistry in 2017 with hopes on attening
-                        veternarian school. After graduating, I found a passion for fitness and health which lead me to get a job as a personal trainer. Working as a personal trainer opened a door for me to work in health
-                        promotion and wellness at the local hospital. After two years of working in health promotion and wellness, I moved to Savannah, GA and started working in logistics but kept personal training on the side.
-                        I working in Savannah for four years and found that I enjoyed working with computers and learning how they work. I obtained two certifications from FreeCodeCamp in coding. That lead me to leave logistics
-                        and go full time into web / software development. I attended UCF's Coding Bootcamp where I obtained a Full Stack Developer Certicication.
-                        <br /><br />
-                        Outside of web / software development, I find great joy in health and fitness. I have competed in strongman, body building, and CrossFit. I am hoping to compete again in the future.
-                        <br /><br />
-                        I am particularly interested in connecting with potential mentors, tech enthusiasts, and anyone passionate about full stack development. If you would like to collaborate with me fill out
-                        the contact form. I am excited to connect with like-minded individuals who share my enthusiasm.
+                    Hello! I’m a full stack developer dedicated to creating user-friendly applications that enhance the digital experience. My journey began at Georgia Southern University, 
+                    where I earned a BS in Biology with a minor in Chemistry, initially aiming for a career in veterinary medicine. However, my path took an unexpected turn when I discovered 
+                    my passion for fitness and health, leading me to work as a personal trainer and eventually in health promotion at a local hospital.
+                    <br /><br />
+                    After two rewarding years in wellness, I transitioned to logistics while continuing my personal training on the side. During my time in Savannah, GA, I developed a keen 
+                    interest in technology and coding. This passion drove me to earn certifications from FreeCodeCamp, which ignited my desire to pursue web and software development 
+                    full-time. I later completed a Full Stack Developer Certification at UCF's Coding Bootcamp, where I honed my skills in both front-end and back-end development.
+                    <br /><br />
+                    In addition to my tech pursuits, I am an avid fitness enthusiast and have competed in strongman, bodybuilding, and CrossFit events. I look forward to competing again 
+                    in the future!
+                    <br /><br />
+                    I am eager to connect with mentors, tech enthusiasts, and anyone who shares a passion for full stack development. If you’re interested in collaborating or simply want 
+                    to chat about technology and fitness, please fill out the contact form. Let’s connect and inspire each other!
                     </p>
                 </div>
             </section>
