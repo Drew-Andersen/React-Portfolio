@@ -160,7 +160,7 @@ export default function About() {
                                     id='progress'
                                     className='d-flex justify-content-center align-items-center border p-5'
                                     valueStart={0}
-                                    valueEnd={75}
+                                    valueEnd={85}
                                     duration={1.8}
                                     easingFunction={easeQuadInOut}
                                 >
@@ -209,6 +209,62 @@ export default function About() {
                                 <h5 className='mb-3'>
                                     NoSQL + <br />
                                     PostgreSQL</h5>
+                            </div>
+                            {/* Java and Python under this comment */}
+                            <div className="col-md-6">
+                                <div className="icon">
+                                <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={50}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                        <i className="fa-brands fa-java"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
+                                </div>
+                                <h5 className='mb-3 mt-3'>Java</h5>
+                            </div>
+
+                            <div className="col-md-6">
+                                <div className="icon">
+                                <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={30}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                    <i className="fa-brands fa-python"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
+                                </div>
+                                <h5 className='mb-3 mt-3'>Python</h5>
                             </div>
                         </div>
                     </div>
