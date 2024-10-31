@@ -46,6 +46,7 @@ export default function About() {
                 <div className="container technologies-container mb-5">
                     <div className='row progress-bar'>
                         <div className="col-md-12 d-flex flex-wrap justify-content-between">
+                            {/* React */}
                             <div className="col-md-4 react-div">
                                 <div className='icon'>
                                     <AnimatedProgressProvider
@@ -73,6 +74,7 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3 mt-3'>REACT</h5>
                             </div>
+                            {/* Node */}
                             <div className="col-md-4 node-div">
                                 <div className="icon">
                                     <AnimatedProgressProvider
@@ -100,6 +102,7 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3 mt-3'>Node.js</h5>
                             </div>
+                            {/* JavaScript */}
                             <div className="col-md-4 JS-div">
                                 <div className='icon'>
                                     <AnimatedProgressProvider
@@ -127,6 +130,7 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3'>JavaScript</h5>
                             </div>
+                            {/* HTML */}
                             <div className="col-md-4 html-div">
                                 <div className='icon'>
                                     <AnimatedProgressProvider
@@ -154,6 +158,7 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3'>HTML</h5>
                             </div>
+                            {/* CSS */}
                             <div className="col-md-4 css-div">
                                 <div className='icon'>
                                 <AnimatedProgressProvider
@@ -181,6 +186,7 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3'>CSS</h5>
                             </div>
+                            {/* Databases */}
                             <div className="col-md-4 sql-div">
                                 <div className='icon'>
                                 <AnimatedProgressProvider
@@ -210,8 +216,8 @@ export default function About() {
                                     NoSQL + <br />
                                     PostgreSQL</h5>
                             </div>
-                            {/* Java and Python under this comment */}
-                            <div className="col-md-6">
+                            {/* Java */} {/* change the col-md-6 to col-md-4 when displaying AWS div */}
+                            <div className="col-md-6 java-div">
                                 <div className="icon">
                                 <AnimatedProgressProvider
                                         id='progress'
@@ -238,14 +244,14 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3 mt-3'>Java</h5>
                             </div>
-
-                            <div className="col-md-6">
+                            {/* Python */} {/* change the col-md-6 to col-md-4 when displaying AWS div */}
+                            <div className="col-md-6 python-div">
                                 <div className="icon">
                                 <AnimatedProgressProvider
                                         id='progress'
                                         className='d-flex justify-content-center align-items-center border p-5'
                                         valueStart={0}
-                                        valueEnd={30}
+                                        valueEnd={16}
                                         duration={1.8}
                                         easingFunction={easeQuadInOut}
                                     >
@@ -265,6 +271,34 @@ export default function About() {
                                     </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3 mt-3'>Python</h5>
+                            </div>
+                            {/* AWS */} {/* Remove class d-none */}
+                            <div className="d-none col-md-4 aws-div">
+                                <div className="icon">
+                                <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={75}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                    <i className="fa-brands fa-aws"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
+                                </div>
+                                <h5 className='mb-3 mt-3'>Amazon Web Services</h5>
                             </div>
                         </div>
                     </div>
