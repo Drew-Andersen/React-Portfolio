@@ -130,14 +130,14 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3'>JavaScript</h5>
                             </div>
-                            {/* HTML */}
+                            {/* HTML & CSS */}
                             <div className="col-md-4 html-div">
                                 <div className='icon'>
                                     <AnimatedProgressProvider
                                         id='progress'
                                         className='d-flex justify-content-center align-items-center border p-5'
                                         valueStart={0}
-                                        valueEnd={94}
+                                        valueEnd={90}
                                         duration={1.8}
                                         easingFunction={easeQuadInOut}
                                     >
@@ -149,42 +149,14 @@ export default function About() {
                                                     styles={buildStyles({ pathTransition: "none" })}
                                                 >
                                                     <div className="inner">
-                                                        <i className="fa-brands fa-html5"></i>
+                                                        <i className="fa-brands fa-html5"></i> <i className="fa-brands fa-css3-alt"></i>
                                                     </div>
                                                 </CircularProgressbarWithChildren>
                                             );
                                         }}
                                     </AnimatedProgressProvider>
                                 </div>
-                                <h5 className='mb-3'>HTML</h5>
-                            </div>
-                            {/* CSS */}
-                            <div className="col-md-4 css-div">
-                                <div className='icon'>
-                                <AnimatedProgressProvider
-                                    id='progress'
-                                    className='d-flex justify-content-center align-items-center border p-5'
-                                    valueStart={0}
-                                    valueEnd={85}
-                                    duration={1.8}
-                                    easingFunction={easeQuadInOut}
-                                >
-                                    {(value) => {
-                                        return (
-                                            <CircularProgressbarWithChildren
-                                                className='CircularProgressbarWithChildren'
-                                                value={value}
-                                                styles={buildStyles({ pathTransition: "none" })}
-                                            >
-                                                <div className="inner">
-                                                    <i className="fa-brands fa-css3-alt"></i>
-                                                </div>
-                                            </CircularProgressbarWithChildren>
-                                        );
-                                    }}
-                                </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3'>CSS</h5>
+                                <h5 className='mb-3'>HTML & CSS</h5>
                             </div>
                             {/* Databases */}
                             <div className="col-md-4 sql-div">
@@ -217,7 +189,7 @@ export default function About() {
                                     PostgreSQL</h5>
                             </div>
                             {/* Java */} {/* change the col-md-6 to col-md-4 when displaying AWS div */}
-                            <div className="col-md-6 java-div">
+                            <div className="col-md-4 java-div">
                                 <div className="icon">
                                 <AnimatedProgressProvider
                                         id='progress'
@@ -244,8 +216,8 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3 mt-3'>Java</h5>
                             </div>
-                            {/* Python */} {/* change the col-md-6 to col-md-4 when displaying AWS div */}
-                            <div className="col-md-6 python-div">
+                            {/* Python */} 
+                            <div className="col-md-12 python-div">
                                 <div className="icon">
                                 <AnimatedProgressProvider
                                         id='progress'
