@@ -4,8 +4,17 @@ import taskBoard from '/images/Task-Board.png';
 import restaurantApp from '/images/City-Restaurant-Finder.png';
 import fitnessBlog from '/images/Fitness-Blog.png';
 import vintageVault from '/images/Vintage-Vault.png';
+import faceDetection from '/images/Face-Detection.png'
 
 export const projects = [
+    {
+        projectTitle: "Facial Detection",
+        description: "Full stack MERN application for detecting all faces in any image with a URL",
+        imageLink: faceDetection,
+        imageAtl: "Image of Facial Detection",
+        liveLink: "https://face-detection-la42.onrender.com/login",
+        gitHub: "https://github.com/Drew-Andersen/Face-Detection"
+    },
     {
         projectTitle: "Vintage Vault",
         description: "An application where you can find and buy anything based on what era it came out.",
@@ -30,7 +39,6 @@ export const projects = [
         liveLink: "https://djdevjams.github.io/city_eventtracker/",
         gitHub: "https://github.com/Drew-Andersen/City-Restaurant-Finder"
     },
-    
     {
         projectTitle: "Task Board",
         description: "A task board where you can move around tasks from 'To-Do', In Progress' and 'Done'.",
@@ -47,12 +55,12 @@ export const projects = [
         liveLink: "https://drew-andersen.github.io/Tribute-Page/",
         gitHub: "https://github.com/Drew-Andersen/Tribute-Page"
     },
-    {
-        projectTitle: "Fitness Blog",
-        description: "A BLog that uses localStorage for a Fitness Blog",
-        imageLink: fitnessBlog,
-        imageAtl: "Image of Fitness Blog App",
-        liveLink: "https://drew-andersen.github.io/Fitness-Blog/",
-        gitHub: "https://github.com/Drew-Andersen/Fitness-Blog"
-    }
+    // {
+    //     projectTitle: "Fitness Blog",
+    //     description: "A BLog that uses localStorage for a Fitness Blog",
+    //     imageLink: fitnessBlog,
+    //     imageAtl: "Image of Fitness Blog App",
+    //     liveLink: "https://drew-andersen.github.io/Fitness-Blog/",
+    //     gitHub: "https://github.com/Drew-Andersen/Fitness-Blog"
+    // }
 ]
