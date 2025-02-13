@@ -1,4 +1,6 @@
 import { projects } from "./Project";
+// import { projects, projects2 } from "./Project";
+
 import './portfolio.css';
 
 export default function Portfolio() {

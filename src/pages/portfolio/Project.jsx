@@ -2,7 +2,7 @@ import fitnessBuddy from '/images/Fitness-Buddy.png';
 import tributePage from '/images/Tribute-Page.png';
 import taskBoard from '/images/Task-Board.png';
 import restaurantApp from '/images/City-Restaurant-Finder.png';
-import fitnessBlog from '/images/Fitness-Blog.png';
+// import fitnessBlog from '/images/Fitness-Blog.png';
 import vintageVault from '/images/Vintage-Vault.png';
 import faceDetection from '/images/Face-Detection.png'
 
@@ -24,12 +24,12 @@ export const projects = [
         gitHub: "https://github.com/Drew-Andersen/Vintage-Vault"
     },
     {
-      projectTitle: "Fitness Buddy",
-      description: "An application that makes it easy to track your workouts.",
-      imageLink: fitnessBuddy,
-      imageAtl: "Image of Fitness Buddy",
-      liveLink: "https://fitness-buddy-2.onrender.com/",
-      gitHub: "https://github.com/Drew-Andersen/Fitness-Buddy"
+        projectTitle: "Fitness Buddy",
+        description: "An application that makes it easy to track your workouts.",
+        imageLink: fitnessBuddy,
+        imageAtl: "Image of Fitness Buddy",
+        liveLink: "https://fitness-buddy-2.onrender.com/",
+        gitHub: "https://github.com/Drew-Andersen/Fitness-Buddy"
     },
     {
         projectTitle: "City Restaurant Finder",
@@ -54,13 +54,32 @@ export const projects = [
         imageAtl: "Picture of General Andersen",
         liveLink: "https://drew-andersen.github.io/Tribute-Page/",
         gitHub: "https://github.com/Drew-Andersen/Tribute-Page"
-    },
-    // {
-    //     projectTitle: "Fitness Blog",
-    //     description: "A BLog that uses localStorage for a Fitness Blog",
-    //     imageLink: fitnessBlog,
-    //     imageAtl: "Image of Fitness Blog App",
-    //     liveLink: "https://drew-andersen.github.io/Fitness-Blog/",
-    //     gitHub: "https://github.com/Drew-Andersen/Fitness-Blog"
-    // }
-]
+    }
+];
+
+// export const projects2 = [
+//     {
+//         projectTitle: "Fitness Blog",
+//         description: "A BLog that uses localStorage for a Fitness Blog",
+//         imageLink: fitnessBlog,
+//         imageAtl: "Image of Fitness Blog App",
+//         liveLink: "https://drew-andersen.github.io/Fitness-Blog/",
+//         gitHub: "https://github.com/Drew-Andersen/Fitness-Blog"
+//     },
+//     {
+//         projectTitle: "",
+//         description: "",
+//         imageLink: "",
+//         imageAtl: "",
+//         liveLink: "",
+//         gitHub: ""
+//     },
+//     {
+//         projectTitle: "",
+//         description: "",
+//         imageLink: "",
+//         imageAtl: "",
+//         liveLink: "",
+//         gitHub: ""
+//     }
+// ]

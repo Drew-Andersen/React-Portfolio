@@ -189,7 +189,7 @@ export default function About() {
                                     PostgreSQL</h5>
                             </div>
                             {/* Java */} {/* change the col-md-6 to col-md-4 when displaying AWS div */}
-                            <div className="col-md-4 java-div">
+                            {/* <div className="col-md-4 java-div">
                                 <div className="icon">
                                 <AnimatedProgressProvider
                                         id='progress'
@@ -215,7 +215,7 @@ export default function About() {
                                     </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3 mt-3'>Java</h5>
-                            </div>
+                            </div> */}
                             {/* Python */} 
                             <div className="col-md-12 python-div">
                                 <div className="icon">
@@ -223,7 +223,7 @@ export default function About() {
                                         id='progress'
                                         className='d-flex justify-content-center align-items-center border p-5'
                                         valueStart={0}
-                                        valueEnd={16}
+                                        valueEnd={65}
                                         duration={1.8}
                                         easingFunction={easeQuadInOut}
                                     >
