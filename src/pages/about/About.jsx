@@ -217,7 +217,7 @@ export default function About() {
                                 <h5 className='mb-3 mt-3'>Java</h5>
                             </div> */}
                             {/* Python */} 
-                            <div className="col-md-12 python-div">
+                            <div className="col-md-4 python-div">
                                 <div className="icon">
                                 <AnimatedProgressProvider
                                         id='progress'
