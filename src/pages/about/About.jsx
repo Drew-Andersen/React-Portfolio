@@ -23,19 +23,19 @@ export default function About() {
                         <img src={img} className="profile-img rounded-circle mx-5" alt="profile image" />
                     </div>
                     <p className="m-4">
-                    Hello! I’m a full stack developer dedicated to creating user-friendly applications that enhance the digital experience. My journey began at Georgia Southern University, 
-                    where I earned a BS in Biology with a minor in Chemistry, initially aiming for a career in veterinary medicine. However, my path took an unexpected turn when I discovered 
-                    my passion for fitness and health, leading me to work as a personal trainer and eventually in health promotion at a local hospital.
-                    <br /><br />
-                    After two rewarding years in wellness, I transitioned to logistics while continuing my personal training on the side. During my time in Savannah, GA, I developed a keen 
-                    interest in technology and coding. This passion drove me to earn certifications from FreeCodeCamp, which ignited my desire to pursue web and software development 
-                    full-time. I later completed a Full Stack Developer Certification at UCF's Coding Bootcamp, where I honed my skills in both front-end and back-end development.
-                    <br /><br />
-                    In addition to my tech pursuits, I am an avid fitness enthusiast and have competed in strongman, bodybuilding, and CrossFit events. I look forward to competing again 
-                    in the future!
-                    <br /><br />
-                    I am eager to connect with mentors, tech enthusiasts, and anyone who shares a passion for full stack development. If you’re interested in collaborating or simply want 
-                    to chat about technology and fitness, please fill out the contact form. Let’s connect and inspire each other!
+                        Hello! I’m a Full Stack Developer passionate about building user-friendly applications that enhance the digital experience.
+                        <br /><br />
+                        My journey started with a BS in Biology from Georgia Southern University, initially pursuing veterinary medicine. However, my passion 
+                        for fitness and health led me to work as a personal trainer and later in health promotion at a hospital. After two years in wellness 
+                        and a transition into logistics, I discovered my love for coding.
+                        <br /><br />
+                        Earning certifications from FreeCodeCamp sparked my deep dive into tech, culminating in a Full Stack Developer Certification from UCF's 
+                        Coding Bootcamp. Now, I specialize in front-end and back-end development, crafting seamless web experiences.
+                        <br /><br />
+                        Outside of tech, I’m a dedicated fitness enthusiast, having competed in strongman, bodybuilding, and CrossFit, with plans to compete again!
+                        <br /><br />
+                        I’m always eager to connect with fellow developers, mentors, and tech enthusiasts. Let’s collaborate, learn, and grow together—feel 
+                        free to reach out!
                     </p>
                 </div>
             </section>
@@ -161,28 +161,28 @@ export default function About() {
                             {/* Databases */}
                             <div className="col-md-4 sql-div">
                                 <div className='icon'>
-                                <AnimatedProgressProvider
-                                    id='progress'
-                                    className='d-flex justify-content-center align-items-center border p-5'
-                                    valueStart={0}
-                                    valueEnd={60}
-                                    duration={1.8}
-                                    easingFunction={easeQuadInOut}
-                                >
-                                    {(value) => {
-                                        return (
-                                            <CircularProgressbarWithChildren
-                                                className='CircularProgressbarWithChildren'
-                                                value={value}
-                                                styles={buildStyles({ pathTransition: "none" })}
-                                            >
-                                                <div className="inner">
-                                                    <i className="fa-solid fa-database"></i>
-                                                </div>
-                                            </CircularProgressbarWithChildren>
-                                        );
-                                    }}
-                                </AnimatedProgressProvider>
+                                    <AnimatedProgressProvider
+                                        id='progress'
+                                        className='d-flex justify-content-center align-items-center border p-5'
+                                        valueStart={0}
+                                        valueEnd={60}
+                                        duration={1.8}
+                                        easingFunction={easeQuadInOut}
+                                    >
+                                        {(value) => {
+                                            return (
+                                                <CircularProgressbarWithChildren
+                                                    className='CircularProgressbarWithChildren'
+                                                    value={value}
+                                                    styles={buildStyles({ pathTransition: "none" })}
+                                                >
+                                                    <div className="inner">
+                                                        <i className="fa-solid fa-database"></i>
+                                                    </div>
+                                                </CircularProgressbarWithChildren>
+                                            );
+                                        }}
+                                    </AnimatedProgressProvider>
                                 </div>
                                 <h5 className='mb-3'>
                                     NoSQL + <br />
@@ -216,10 +216,10 @@ export default function About() {
                                 </div>
                                 <h5 className='mb-3 mt-3'>Java</h5>
                             </div> */}
-                            {/* Python */} 
+                            {/* Python */}
                             <div className="col-md-4 python-div">
                                 <div className="icon">
-                                <AnimatedProgressProvider
+                                    <AnimatedProgressProvider
                                         id='progress'
                                         className='d-flex justify-content-center align-items-center border p-5'
                                         valueStart={0}
@@ -235,7 +235,7 @@ export default function About() {
                                                     styles={buildStyles({ pathTransition: "none" })}
                                                 >
                                                     <div className="inner">
-                                                    <i className="fa-brands fa-python"></i>
+                                                        <i className="fa-brands fa-python"></i>
                                                     </div>
                                                 </CircularProgressbarWithChildren>
                                             );
@@ -247,7 +247,7 @@ export default function About() {
                             {/* AWS */} {/* Remove class d-none */}
                             <div className="d-none col-md-4 aws-div">
                                 <div className="icon">
-                                <AnimatedProgressProvider
+                                    <AnimatedProgressProvider
                                         id='progress'
                                         className='d-flex justify-content-center align-items-center border p-5'
                                         valueStart={0}
@@ -263,7 +263,7 @@ export default function About() {
                                                     styles={buildStyles({ pathTransition: "none" })}
                                                 >
                                                     <div className="inner">
-                                                    <i className="fa-brands fa-aws"></i>
+                                                        <i className="fa-brands fa-aws"></i>
                                                     </div>
                                                 </CircularProgressbarWithChildren>
                                             );
