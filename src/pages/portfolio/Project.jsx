@@ -32,12 +32,12 @@ export const projects = [
         gitHub: "https://github.com/Drew-Andersen/Fitness-Buddy"
     },
     {
-        projectTitle: "City Restaurant Finder",
-        description: "Web application designed to help users explore local restaurants and the current weather in a city.",
+        projectTitle: "Weather App",
+        description: "Web application designed using Django and python to show the current weather in any city in the United States",
         imageLink: restaurantApp,
-        imageAtl: "Image of City Restaurant Finder",
-        liveLink: "https://djdevjams.github.io/city_eventtracker/",
-        gitHub: "https://github.com/Drew-Andersen/City-Restaurant-Finder"
+        imageAtl: "Image of Weather App",
+        liveLink: "https://weather-app-c7fd.onrender.com/",
+        gitHub: "https://github.com/Drew-Andersen/Python-Weather-App"
     },
     {
         projectTitle: "Task Board",
@@ -65,6 +65,14 @@ export const projects = [
 //         imageAtl: "Image of Fitness Blog App",
 //         liveLink: "https://drew-andersen.github.io/Fitness-Blog/",
 //         gitHub: "https://github.com/Drew-Andersen/Fitness-Blog"
+//     },
+//     {
+//         projectTitle: "City Restaurant Finder",
+//         description: "Web application designed to help users explore local restaurants and the current weather in a city.",
+//         imageLink: restaurantApp,
+//         imageAtl: "Image of City Restaurant Finder",
+//         liveLink: "https://djdevjams.github.io/city_eventtracker/",
+//         gitHub: "https://github.com/Drew-Andersen/City-Restaurant-Finder"
 //     },
 //     {
 //         projectTitle: "",
