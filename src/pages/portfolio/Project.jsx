@@ -1,7 +1,8 @@
 import fitnessBuddy from '/images/Fitness-Buddy.png';
 import tributePage from '/images/Tribute-Page.png';
 import taskBoard from '/images/Task-Board.png';
-import restaurantApp from '/images/City-Restaurant-Finder.png';
+// import restaurantApp from '/images/City-Restaurant-Finder.png';
+import weatherapp from '/images/weather-app-image.png'
 // import fitnessBlog from '/images/Fitness-Blog.png';
 import vintageVault from '/images/Vintage-Vault.png';
 import faceDetection from '/images/Face-Detection.png'
@@ -34,7 +35,7 @@ export const projects = [
     {
         projectTitle: "Weather App",
         description: "Web application designed using Django and python to show the current weather in any city in the United States",
-        imageLink: restaurantApp,
+        imageLink: weatherapp,
         imageAtl: "Image of Weather App",
         liveLink: "https://weather-app-c7fd.onrender.com/",
         gitHub: "https://github.com/Drew-Andersen/Python-Weather-App"
