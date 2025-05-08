@@ -1,5 +1,5 @@
 import fitnessBuddy from '/images/Fitness-Buddy.png';
-import timerApp from '/images/timerApp';
+import timerApp from '/images/Timer-App.png';
 // import tributePage from '/images/Tribute-Page.png';
 import taskBoard from '/images/Task-Board.png';
 // import restaurantApp from '/images/City-Restaurant-Finder.png';
