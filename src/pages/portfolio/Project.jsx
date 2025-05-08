@@ -1,5 +1,6 @@
 import fitnessBuddy from '/images/Fitness-Buddy.png';
-import tributePage from '/images/Tribute-Page.png';
+import timerApp from '/images/timerApp';
+// import tributePage from '/images/Tribute-Page.png';
 import taskBoard from '/images/Task-Board.png';
 // import restaurantApp from '/images/City-Restaurant-Finder.png';
 import weatherapp from '/images/weather-app-image.png'
@@ -49,12 +50,12 @@ export const projects = [
         gitHub: "https://github.com/Drew-Andersen/Task-Board"
     },
     {
-        projectTitle: "Tribute Page",
-        description: "A tribute page to General James Roy Andersen",
-        imageLink: tributePage,
-        imageAtl: "Picture of General Andersen",
-        liveLink: "https://drew-andersen.github.io/Tribute-Page/",
-        gitHub: "https://github.com/Drew-Andersen/Tribute-Page"
+        projectTitle: "Timer App",
+        description: "A timer and stopwatch app",
+        imageLink: timerApp,
+        imageAtl: "Timer Logi",
+        liveLink: "https://timer-app-6ke0.onrender.com/",
+        gitHub: "https://github.com/Drew-Andersen/Timer-App"
     }
 ];
 
@@ -76,13 +77,13 @@ export const projects = [
 //         gitHub: "https://github.com/Drew-Andersen/City-Restaurant-Finder"
 //     },
 //     {
-//         projectTitle: "",
-//         description: "",
-//         imageLink: "",
-//         imageAtl: "",
-//         liveLink: "",
-//         gitHub: ""
-//     },
+        //     projectTitle: "Tribute Page",
+        //     description: "A tribute page to General James Roy Andersen",
+        //     imageLink: tributePage,
+        //     imageAtl: "Picture of General Andersen",
+        //     liveLink: "https://drew-andersen.github.io/Tribute-Page/",
+        //     gitHub: "https://github.com/Drew-Andersen/Tribute-Page"
+        // },
 //     {
 //         projectTitle: "",
 //         description: "",
