@@ -55,7 +55,17 @@
     stroke: var(--shadow-red);
 }
 
+.github-stats-header {
+    text-decoration: underline 3px var(--border-red);
+}
 
+.github-stats-container {
+    display: flex;
+}
+
+.stats {
+    width: 100%;
+}
 
 /* **************** @Media **************** */
 @media screen and (max-width: 1000px) {

@@ -29,7 +29,7 @@ export default function About() {
                         for fitness and health led me to work as a personal trainer and later in health promotion at a hospital. After two years in wellness 
                         and a transition into logistics, I discovered my love for coding.
                         <br /><br />
-                        Earning certifications from FreeCodeCamp sparked my deep dive into tech, culminating in a Full Stack Developer Certification from UCF's 
+                        Earning certifications from FreeCodeCamp sparked my deep dive into tech, culminating in a Full Stack Developer Certification from The University of Central Florida&aposs 
                         Coding Bootcamp. Now, I specialize in front-end and back-end development, crafting seamless web experiences.
                         <br /><br />
                         Outside of tech, I’m a dedicated fitness enthusiast, having competed in strongman, bodybuilding, and CrossFit, with plans to compete again!
@@ -276,6 +276,28 @@ export default function About() {
                     </div>
                 </div>
             </section>
+            {/* <section className="github-stats my-5">
+                <div className="github-stats-header text-center">
+                    <h2>GitHub Stats</h2>
+                </div>
+                <div className="container github-stats-container mb-5 px-0">
+                    <img 
+                        src="https://github-readme-stats.vercel.app/api?username=drew-andersen&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" 
+                        alt="Drew AndersenGitHub Stats" 
+                        className='stats'
+                    />
+                    <img 
+                        src="https://github-readme-streak-stats.herokuapp.com/?user=drew-andersen&theme=vue-dark&hide_border=true" 
+                        alt="Drew AndersenGitHub Stats" 
+                        className='stats'
+                    />
+                    <img 
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=drew-andersen&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" 
+                        alt="Drew AndersenGitHub Stats" 
+                        className='stats'
+                    />
+                </div>
+            </section> */}
         </>
     )
 }
