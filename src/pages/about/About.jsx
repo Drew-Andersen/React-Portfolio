@@ -17,7 +17,7 @@ export default function About() {
                         <img src={img} alt='profile image' className='profile-img rounded-circle mx-5' />
                     </div>
                     <p className='m-4'>
-                        Hi, I&aposm a developer who works comfortably across the front-end, back-end, and increasingly the AI layer
+                        Hi, I'm a developer who works comfortably across the front-end, back-end, and increasingly the AI layer
                         in between - I'm looking for my first role as a ful stack developer, front-end developer, AI engineer, 
                         wherever I can build things people actually use.
                         <br /> <br />
