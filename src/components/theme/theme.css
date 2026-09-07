@@ -1,0 +1,29 @@
+:root {
+    --bg-page: #F7F1E6;
+    --bg-surface: #FFFFFF;
+    --bg-surface-alt: #EEE2CC;
+    --text-primary: #241010;
+    --text-secondary: #6B5347;
+    --accent: #8C6412;
+    --accent-contrast: #FFFFFF;
+    --border: #D9CBBB;
+    --border-strong: #241010;
+}
+
+[data-theme="dark"] {
+    --bg-page: #241010;
+    --bg-surface: #34191A;
+    --bg-surface-alt: #3F2323;
+    --text-primary: #F3ECE2;
+    --text-secondary: #B79C90;
+    --accent: #D9A441;
+    --accent-contrast: #241010;
+    --border: #4A2A2A;
+    --border-strong: #D9A441;
+}
+
+body {
+    background: var(--bg-page);
+    color: var(--text-primary);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}

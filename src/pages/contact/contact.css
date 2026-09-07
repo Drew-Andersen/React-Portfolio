@@ -10,3 +10,13 @@ form .message-input {
     transition: all 0.2s ease-in-out;
     transform: scale(1.2);
 }
+
+.text-success {
+    font-size: 1.1rem;
+    max-width: 300px;
+    color: var(--accent);
+}
+
+h1 {
+    color: var(--text-primary);
+}

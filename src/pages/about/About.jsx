@@ -1,303 +1,103 @@
-import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
-import { easeQuadInOut } from "d3-ease";
-import AnimatedProgressProvider from './AnimatedProgressBarProvider';
-import 'react-circular-progressbar/dist/styles.css';
 import img from './images/Profile-img.jpeg';
 import logo from './images/Logo.png';
 import './about.css';
 
 export default function About() {
-
-
     return (
         <>
             <div className='text-center logo'>
-                <img src={logo} alt="Logo for portfolio" />
+                <img src={logo} alt='Logo for portfolio' />
             </div>
             <section className='about-section my-5'>
-                <div className="about-header px-2 text-center">
+                <div className='about-header px-2 text-center'>
                     <h2>About Me</h2>
                 </div>
-                <div className="about-div my-4 mx-auto w-75">
+                <div className='about-div my-4 mx-auto w-75'>
                     <div className='text-center'>
-                        <img src={img} className="profile-img rounded-circle mx-5" alt="profile image" />
+                        <img src={img} alt='profile image' className='profile-img rounded-circle mx-5' />
                     </div>
-                    <p className="m-4">
-                        Hello! I’m a Full Stack Developer passionate about building user-friendly applications that enhance the digital experience.
+                    <p className='m-4'>
+                        Hi, I&aposm a developer who works comfortably across the front-end, back-end, and increasingly the AI layer
+                        in between - I'm looking for my first role as a ful stack developer, front-end developer, AI engineer, 
+                        wherever I can build things people actually use.
+                        <br /> <br />
+                        My path here was't linear. I started with a BS in Biology from Georgia Southern University, headed toward veterinary
+                        medicine, before a passion for fitness and health pulled me into personal training and later into health promotion 
+                        at a hospital. After two years in wllness and a stint in logistics, I found coding - and it stuck. That non-traditional
+                        route taught me how to learn fast, work directly with people, and stay accountable to results, which carries straight
+                        into how I approach engineering.
                         <br /><br />
-                        My journey started with a BS in Biology from Georgia Southern University, initially pursuing veterinary medicine. However, my passion 
-                        for fitness and health led me to work as a personal trainer and later in health promotion at a hospital. After two years in wellness 
-                        and a transition into logistics, I discovered my love for coding.
+                        I built on FreeCodecamp certifications with a Full Stack Developer certification from the University of Central Florida's
+                        Coding Bootcamp. On the front-end, I build interfaces in React with an eye for usability, since I've spent years watching
+                        real people struggle (or benefit from) with bad and good software design as a trainer. On the back-end, I build API's and 
+                        data models with Node/Express and PostgreSQL or MongoDB. Ans on the AI side, my flagship project - an AI-assisted personal 
+                        training app - pairs a React front-end with a Python/FastAPI service handling the AI-driven training logic, which is where 
+                        I've been focusing most of my recent learning.
                         <br /><br />
-                        Earning certifications from FreeCodeCamp sparked my deep dive into tech, culminating in a Full Stack Developer Certification from The University of Central Florida&aposs 
-                        Coding Bootcamp. Now, I specialize in front-end and back-end development, crafting seamless web experiences.
+                        Outside of tech, I'm a lifelong fitness enthusiast who's competed in strongman, bodybuilding, and Crossfit - with plans to 
+                        compete again. That background is directly why I build the tools I build; the AI-assisted fitness training app and the 
+                        wedding budget tracker below both started as problems I needed solved for myself first.
                         <br /><br />
-                        Outside of tech, I’m a dedicated fitness enthusiast, having competed in strongman, bodybuilding, and CrossFit, with plans to compete again!
-                        <br /><br />
-                        I’m always eager to connect with fellow developers, mentors, and tech enthusiasts. Let’s collaborate, learn, and grow together—feel 
-                        free to reach out!
+                        Always glad to connect with other developers, mentors, and tech folks - feel free to reach out.
                     </p>
                 </div>
             </section>
-            <section className='technologies-section my-5'>
-                <div className="technologies-header text-center">
-                    <h2>Technologies</h2>
+            <section className='goals-section my-5 text-center'>
+                <div className='skills-header px-2'>
+                    <h2>What I'm looking for</h2>
                 </div>
-                <div className="container technologies-container mb-5">
-                    <div className='row progress-bar'>
-                        <div className="col-md-12 d-flex flex-wrap justify-content-between">
-                            {/* React */}
-                            <div className="col-md-4 react-div">
-                                <div className='icon'>
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={85}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-react"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3 mt-3'>REACT</h5>
-                            </div>
-                            {/* Node */}
-                            <div className="col-md-4 node-div">
-                                <div className="icon">
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={70}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-node"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3 mt-3'>Node.js</h5>
-                            </div>
-                            {/* JavaScript */}
-                            <div className="col-md-4 JS-div">
-                                <div className='icon'>
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={90}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-js"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3'>JavaScript</h5>
-                            </div>
-                            {/* HTML & CSS */}
-                            <div className="col-md-4 html-div">
-                                <div className='icon'>
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={90}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-html5"></i> <i className="fa-brands fa-css3-alt"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3'>HTML & CSS</h5>
-                            </div>
-                            {/* Databases */}
-                            <div className="col-md-4 sql-div">
-                                <div className='icon'>
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={60}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-solid fa-database"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3'>
-                                    NoSQL + <br />
-                                    PostgreSQL</h5>
-                            </div>
-                            {/* Java */} {/* change the col-md-6 to col-md-4 when displaying AWS div */}
-                            {/* <div className="col-md-4 java-div">
-                                <div className="icon">
-                                <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={50}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-java"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3 mt-3'>Java</h5>
-                            </div> */}
-                            {/* Python */}
-                            <div className="col-md-4 python-div">
-                                <div className="icon">
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={65}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-python"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3 mt-3'>Python</h5>
-                            </div>
-                            {/* AWS */} {/* Remove class d-none */}
-                            <div className="d-none col-md-4 aws-div">
-                                <div className="icon">
-                                    <AnimatedProgressProvider
-                                        id='progress'
-                                        className='d-flex justify-content-center align-items-center border p-5'
-                                        valueStart={0}
-                                        valueEnd={75}
-                                        duration={1.8}
-                                        easingFunction={easeQuadInOut}
-                                    >
-                                        {(value) => {
-                                            return (
-                                                <CircularProgressbarWithChildren
-                                                    className='CircularProgressbarWithChildren'
-                                                    value={value}
-                                                    styles={buildStyles({ pathTransition: "none" })}
-                                                >
-                                                    <div className="inner">
-                                                        <i className="fa-brands fa-aws"></i>
-                                                    </div>
-                                                </CircularProgressbarWithChildren>
-                                            );
-                                        }}
-                                    </AnimatedProgressProvider>
-                                </div>
-                                <h5 className='mb-3 mt-3'>Amazon Web Services</h5>
-                            </div>
+                <div className='goals-tags mx-auto'>
+                    <span className='skill-tag'>Full Stack Developer</span>
+                    <span className='skill-tag'>Front-end Developer</span>
+                    <span className='skill-tag'>AI Engineer</span>
+                    <span className='skill-tag'>Software Engineer</span>
+                </div>
+            </section>
+            <section className='skills-section my-3'>
+                <div className='skills-header px-2 text-center'>
+                    <h2>Skills</h2>
+                </div>
+                <div className='skills-div mx-auto'>
+                    <div className='skill-group'>
+                        <h5>Languages</h5>
+                        <div className='skill-tags'>
+                            <span className='skill-tag'>JavaScript</span>
+                            <span className='skill-tag'>Python</span>
+                            <span className='skill-tag'>HTML</span>
+                            <span className='skill-tag'>CSS</span>
+                        </div>
+                    </div>
+                    <div className='skill-group'>
+                        <h5>Front-end</h5>
+                        <div className='skill-tags'>
+                            <span className='skill-tag'>React</span>
+                            <span className='skill-tag'>Bootstrap</span>
+                            <span className='skill-tag'>Materialize</span>
+                            <span className='skill-tag'>Tailwind</span>
+                        </div>
+                    </div>
+                    <div className='skill-group'>
+                        <h5>Back-end</h5>
+                        <div className='skill-tags'>
+                            <span className='skill-tag'>Node.js</span>
+                            <span className='skill-tag'>Express</span>
+                            <span className='skill-tag'>FastAPI</span>
+                            <span className='skill-tag'>Django</span>
+                            <span className='skill-tag'>PostgreSQL</span>
+                            <span className='skill-tag'>MongoDB</span>
+                        </div>
+                    </div>
+                    <div className='skill-group'>
+                        <h5>Tools & Hosting</h5>
+                        <div className='skill-tags'>
+                            <span className='skill-tag'>Git</span>
+                            <span className='skill-tag'>GitHub</span>
+                            <span className='skill-tag'>Vercel</span>
+                            <span className='skill-tag'>Render</span>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* <section className="github-stats my-5">
-                <div className="github-stats-header text-center">
-                    <h2>GitHub Stats</h2>
-                </div>
-                <div className="container github-stats-container mb-5 px-0">
-                    <img 
-                        src="https://github-readme-stats.vercel.app/api?username=drew-andersen&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" 
-                        alt="Drew AndersenGitHub Stats" 
-                        className='stats'
-                    />
-                    <img 
-                        src="https://github-readme-streak-stats.herokuapp.com/?user=drew-andersen&theme=vue-dark&hide_border=true" 
-                        alt="Drew AndersenGitHub Stats" 
-                        className='stats'
-                    />
-                    <img 
-                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=drew-andersen&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" 
-                        alt="Drew AndersenGitHub Stats" 
-                        className='stats'
-                    />
-                </div>
-            </section> */}
         </>
     )
 }

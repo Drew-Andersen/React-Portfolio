@@ -1,61 +1,86 @@
 import fitnessBuddy from '/images/Fitness-Buddy.png';
 import timerApp from '/images/Timer-App.png';
-// import tributePage from '/images/Tribute-Page.png';
 import taskBoard from '/images/Task-Board.png';
-// import restaurantApp from '/images/City-Restaurant-Finder.png';
-import weatherapp from '/images/weather-app-image.png'
-// import fitnessBlog from '/images/Fitness-Blog.png';
+import weatherapp from '/images/weather-app-image.png';
 import vintageVault from '/images/Vintage-Vault.png';
-import faceDetection from '/images/Face-Detection.png'
+import faceDetection from '/images/Face-Detection.png';
+import weddingBudgetTracker from '/images/Wedding-Budget-Tracker.png';
+import ComingSoon from '/images/Coming-Soon.png';
+// import aiPersonalTrainer from '/images/Ai-Personal-Trainer.png';
 
 export const projects = [
     {
+        projectTitle: "Wedding Budget Tracker",
+        description: "A ul-stack bidget planner for couples plannning a wedding - tracks expenses, vendor payments, and running totals in one place. Deployed and in active daily use for my own wedding.",
+        imageLink: weddingBudgetTracker,
+        imageAtl: "Screenshot of the Wedding Budget Tracker dashboard",
+        liveLink: "https://wedding-budget-app-two.vercel.app/",
+        gitHub: "https://github.com/Drew-Andersen/Wedding-Budget-App",
+        techStack: ["React", "Node,js", "Express", "PostgreSQL"]
+    },
+    {
+        projectTitle: "AI Personal Trainer",
+        description: "An AI-assisted training app with workout tracking, RIR-based progression, and a form-check video review feature — built on both my development background and my experience as a certified personal trainer.",
+        // imageLink: aiPersonalTrainer,
+        imageLink: ComingSoon,
+        imageAtl: "Screenshot of the AI Personal Trainer dashboard",
+        // liveLink: "",
+        gitHub: "https://github.com/Drew-Andersen/AI-Personal-Trainer", // update to the real repo URL
+        techStack: ["React", "Node.js", "PostgreSQL", "Python", "FastAPI"]
+    },
+    {
         projectTitle: "Facial Detection",
-        description: "Full stack MERN application for detecting all faces in any image with a URL",
+        description: "A full-stack MERN app that detects and highlights every face in an image from a submitted URL, using a face-recognition API and a Node/Express backend.",
         imageLink: faceDetection,
-        imageAtl: "Image of Facial Detection",
+        imageAtl: "Screenshot of the Facial Detection app",
         liveLink: "https://face-detection-la42.onrender.com/login",
-        gitHub: "https://github.com/Drew-Andersen/Face-Detection"
+        gitHub: "https://github.com/Drew-Andersen/Face-Detection",
+        techStack: ["React", "Node.js", "Express", "MongoDB"]
     },
     {
         projectTitle: "Vintage Vault",
-        description: "An application where you can find and buy anything based on what era it came out.",
+        description: "An e-commerce marketplace for browsing and buying items by the era they were made in, with category filtering and a full checkout flow.",
         imageLink: vintageVault,
-        imageAtl: "Image of Vintage Vault",
+        imageAtl: "Screenshot of the Vintage Vault marketplace",
         liveLink: "https://vintage-vault.onrender.com/",
-        gitHub: "https://github.com/Drew-Andersen/Vintage-Vault"
+        gitHub: "https://github.com/Drew-Andersen/Vintage-Vault",
+        techStack: ["React", "Node.js", "Express", "MongoDB"]
     },
     {
         projectTitle: "Fitness Buddy",
-        description: "An application that makes it easy to track your workouts.",
+        description: "A workout-tracking app for logging exercises, sets, and reps over time, with a clean dashboard for reviewing progress.",
         imageLink: fitnessBuddy,
-        imageAtl: "Image of Fitness Buddy",
+        imageAtl: "Screenshot of the Fitness Buddy dashboard",
         liveLink: "https://fitness-buddy-2.onrender.com/",
-        gitHub: "https://github.com/Drew-Andersen/Fitness-Buddy"
+        gitHub: "https://github.com/Drew-Andersen/Fitness-Buddy",
+        techStack: ["React", "Node.js", "Express", "MongoDB"]
     },
     {
         projectTitle: "Weather App",
-        description: "Web application designed using Django and python to show the current weather in any city in the United States",
+        description: "A Django and Python web app that pulls current conditions for any city in the United States from a weather API.",
         imageLink: weatherapp,
-        imageAtl: "Image of Weather App",
+        imageAtl: "Screenshot of the Weather App",
         liveLink: "https://weather-app-c7fd.onrender.com/",
-        gitHub: "https://github.com/Drew-Andersen/Python-Weather-App"
+        gitHub: "https://github.com/Drew-Andersen/Python-Weather-App",
+        techStack: ["Python", "Django"]
     },
     {
         projectTitle: "Task Board",
-        description: "A task board where you can move around tasks from 'To-Do', In Progress' and 'Done'.",
+        description: "A drag-and-drop Kanban board for moving tasks between 'To-Do,' 'In Progress,' and 'Done' columns.",
         imageLink: taskBoard,
-        imageAtl: "Image of the Task Board",
+        imageAtl: "Screenshot of the Task Board",
         liveLink: "https://drew-andersen.github.io/Task-Board/",
-        gitHub: "https://github.com/Drew-Andersen/Task-Board"
+        gitHub: "https://github.com/Drew-Andersen/Task-Board",
+        techStack: ["JavaScript", "HTML", "CSS"]
     },
     {
         projectTitle: "Timer App",
-        description: "A timer and stopwatch app",
+        description: "A combined timer and stopwatch app built to practice state management and interval logic in React.",
         imageLink: timerApp,
-        imageAtl: "Timer Logi",
+        imageAtl: "Screenshot of the Timer App",
         liveLink: "https://timer-app-6ke0.onrender.com/",
-        gitHub: "https://github.com/Drew-Andersen/Timer-App"
+        gitHub: "https://github.com/Drew-Andersen/Timer-App",
+        techStack: ["React", "JavaScript"]
     }
 ];
 
