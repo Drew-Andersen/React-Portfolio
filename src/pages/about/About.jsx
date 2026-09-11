@@ -18,7 +18,7 @@ export default function About() {
                     </div>
                     <p className='m-4'>
                         Hi, I'm a developer who works comfortably across the front-end, back-end, and increasingly the AI layer
-                        in between - I'm looking for my first role as a ful stack developer, front-end developer, AI engineer, 
+                        in between - I'm looking for my first role as a full stack developer, front-end developer, AI engineer, 
                         wherever I can build things people actually use.
                         <br /> <br />
                         My path here was't linear. I started with a BS in Biology from Georgia Southern University, headed toward veterinary
@@ -28,11 +28,12 @@ export default function About() {
                         into how I approach engineering.
                         <br /><br />
                         I built on FreeCodecamp certifications with a Full Stack Developer certification from the University of Central Florida's
-                        Coding Bootcamp. On the front-end, I build interfaces in React with an eye for usability, since I've spent years watching
-                        real people struggle (or benefit from) with bad and good software design as a trainer. On the back-end, I build API's and 
-                        data models with Node/Express and PostgreSQL or MongoDB. Ans on the AI side, my flagship project - an AI-assisted personal 
-                        training app - pairs a React front-end with a Python/FastAPI service handling the AI-driven training logic, which is where 
-                        I've been focusing most of my recent learning.
+                        Coding Bootcamp. On the front-end, I build interfaces in React with usability in mind — years spent watching 
+                        people struggle with clunky software, or thrive with well-designed software, as a trainer taught me to notice friction 
+                        most developers overlook. On the back-end, I build APIs and data models with Node/Express and PostgreSQL or MongoDB. 
+                        And on the AI side, my flagship project — an AI-assisted personal training app — pairs a React front end with a 
+                        Python/FastAPI service handling the AI-driven training logic, which is where I've been focusing most of my 
+                        recent learning.
                         <br /><br />
                         Outside of tech, I'm a lifelong fitness enthusiast who's competed in strongman, bodybuilding, and Crossfit - with plans to 
                         compete again. That background is directly why I build the tools I build; the AI-assisted fitness training app and the 
