@@ -11,7 +11,7 @@ import ComingSoon from '/images/Coming-Soon.png';
 export const projects = [
     {
         projectTitle: "Wedding Budget Tracker",
-        description: "A ul-stack bidget planner for couples plannning a wedding - tracks expenses, vendor payments, and running totals in one place. Deployed and in active daily use for my own wedding.",
+        description: "A full-stack budget planner for couples plannning a wedding - tracks expenses, vendor payments, and running totals in one place. Deployed and in active daily use for my own wedding.",
         imageLink: weddingBudgetTracker,
         imageAtl: "Screenshot of the Wedding Budget Tracker dashboard",
         liveLink: "https://wedding-budget-app-two.vercel.app/",
