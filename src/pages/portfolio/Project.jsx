@@ -24,25 +24,25 @@ export const projects = [
     projectTitle: "Wedding Budget Tracker",
     featured: true,
     description:
-      "A full-stack budget planner for couples plannning a wedding - tracks expenses, vendor payments, and running totals in one place. Deployed and in active daily use for my own wedding.",
+      "A full-stack budget planner for couples planning a wedding - tracks expenses, vendor payments, and running totals in one place. Deployed and in active daily use for my own wedding.",
     imageLink: weddingBudgetTracker,
     imageAtl: "Screenshot of the Wedding Budget Tracker dashboard",
     liveLink: "https://wedding-budget-app-two.vercel.app/",
     gitHub: "https://github.com/Drew-Andersen/Wedding-Budget-App",
-    techStack: ["React", "Node,js", "Express", "PostgreSQL"],
+    techStack: ["React", "Node.js", "Express", "PostgreSQL"],
   },
-  {
-    projectTitle: "AI Personal Trainer",
-    featured: false,
-    description:
-      "An AI-assisted training app with workout tracking, RIR-based progression, and a form-check video review feature — built on both my development background and my experience as a certified personal trainer.",
-    // imageLink: aiPersonalTrainer,
-    imageLink: ComingSoon,
-    imageAtl: "Screenshot of the AI Personal Trainer dashboard",
-    // liveLink: "",
-    gitHub: "https://github.com/Drew-Andersen/AI-Personal-Trainer", // update to the real repo URL
-    techStack: ["React", "Node.js", "PostgreSQL", "Python", "FastAPI"],
-  },
+//   {
+//     projectTitle: "AI Personal Trainer",
+//     featured: false,
+//     description:
+//       "An AI-assisted training app with workout tracking, RIR-based progression, and a form-check video review feature — built on both my development background and my experience as a certified personal trainer.",
+//     // imageLink: aiPersonalTrainer,
+//     imageLink: ComingSoon,
+//     imageAtl: "Screenshot of the AI Personal Trainer dashboard",
+//     // liveLink: "",
+//     gitHub: "https://github.com/Drew-Andersen/AI-Personal-Trainer", // update to the real repo URL
+//     techStack: ["React", "Node.js", "PostgreSQL", "Python", "FastAPI"],
+//   },
   {
     projectTitle: "Facial Detection",
     featured: false,
