@@ -5,7 +5,6 @@ import weatherapp from "/images/weather-app-image.png";
 import vintageVault from "/images/Vintage-Vault.png";
 import faceDetection from "/images/Face-Detection.png";
 import weddingBudgetTracker from "/images/Wedding-Budget-Tracker.png";
-import ComingSoon from "/images/Coming-Soon.png";
 // import aiPersonalTrainer from '/images/Ai-Personal-Trainer.png';
 
 export const projects = [
